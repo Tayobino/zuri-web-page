@@ -1,0 +1,147 @@
+* {
+    font-family: sans-serif;
+
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+
+}
+
+.oga {
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-size: cover;
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin: auto;
+    padding-top: 69px;
+    margin-bottom: 69px;
+    text-align: center;
+}
+
+.learn {
+    text-align: center;
+    margin-bottom: 69px
+}
+
+.unlock {
+    text-align: center;
+    max-width: 700px;
+    padding: 10px;
+    margin: 0 auto 40px;
+}
+
+.foot {
+    text-align: center;
+}
+
+#foot1 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#foot2 {
+    background-color: red;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.zuri {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.flex {
+    display: flex;
+    background-image: url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png"), url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png");
+    background-position: left, right;
+    background-size: 300px 80vh,300px 80vh;
+    
+    background-repeat: no-repeat, no-repeat;
+    border: 70px;
+    justify-content: space-between;
+    margin: 120px;
+    padding: 50px;
+}
+
+#first {
+    max-width: 300px;
+    padding: 30px;
+    height: 50vh;
+    border: 5px rgba(0, 0, 0, .4);
+    background-color: #f4e6e7;
+    border-radius: 10px;
+}
+
+#second {border-radius: 10px;
+    max-width: 300px;
+    padding: 30px;
+    height: 50vh;
+    border: 5px;
+    background-color: #f4e6e7;
+}
+
+#third { background-color: #f4e6e7;border-radius: 10px;
+    max-width: 300px;
+    padding: 30px;
+    height: 50vh;
+    border: 5px;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#fir {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#sec {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#thir {
+    margin-top: 30px;
+}
+
+#im {
+    margin-top: 45px;
+}
+@media (max-width: 768px){.oga{display: block; }
+.flex{display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    contain: content;
+    justify-content: space-between;
+    height:max-contentls}
+.last{display: block;}}

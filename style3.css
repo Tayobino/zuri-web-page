@@ -1,0 +1,297 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 50px;
+    font-size: 4vh;
+  }
+  
+#img {
+    margin: 30px;
+}
+
+.vet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#vet {
+    font-family: sans-serif;
+    margin-left: 150px;
+    margin-top: 190px;
+    width: 30%;
+    font-size: larger;
+}
+
+#img2 {
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+#hire {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(237, 50, 50);
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(237, 50, 50);
+}
+
+#join {
+    border-radius: 4px;
+    padding: 10px 44px;
+    font-size: medium;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128);
+}
+
+.we {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("https://talent.zuri.team/static/media/bgsection2.063bd869082548bafa74.png");
+}
+
+#impact {
+    margin-top: 180px;
+    margin-left: 200px;
+    font-family: sans-serif;
+    width: 470px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#impact2 {
+    margin-top: 85px;
+    margin-right: 200px;
+
+}
+
+.skills {
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-left: 80px;
+    font-size: 4vh;
+    width: 40%;
+    font-weight: bolder;
+}
+
+#ui {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 140px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#first {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+    ;
+
+}
+
+#second {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+    ;
+
+}
+
+#third {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+    ;
+
+}
+
+#fourth {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+    ;
+
+}
+
+.where {
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-left: 80px;
+    font-size: 4vh;
+    width: 40%;
+    font-weight: bolder;
+}
+
+.where2 {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 140px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+
+#fir {
+    border-radius: 4px;
+    padding: 10px 44px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+}
+
+#sec {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+}
+
+#thir {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+}
+
+#four {
+    border-radius: 4px;
+    padding: 10px 44px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+}
+
+#fift {
+    border-radius: 4px;
+    padding: 10px 64px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+}
+
+#sixt {
+    border-radius: 4px;
+    padding: 10px 44px;
+    font-size: medium;
+    color: rgb(128, 128, 128);
+    background-color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    border: solid rgb(128, 128, 128);
+}
+
+.talents {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 4vh;
+    font-weight: bolder;
+}
+
+.svg {
+    display: grid;
+    border-radius: 20px;
+    grid-template-areas: 'a b c'
+        'd e e';
+    border: 10px;
+    background-color: rgb(239, 228, 207);
+    margin: 50px;
+    grid-gap: 25px;
+    align-items: center;
+}
+
+#fi {
+    padding: 50px;
+    background-color: white;
+
+}
+
+#se {
+    padding: 50px;
+    background-color: white;
+}
+
+#th {
+    padding: 50px;
+    background-color: white;
+}
+
+#fo {
+    padding: 50px;
+    background-color: white;
+}
+
+#fif {
+    padding: 50px;
+    background-color: white;
+}.overall{background-color: rgb(239, 228, 207);}
+.last{
+    text-align: center;
+}
+.footer{background-color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
